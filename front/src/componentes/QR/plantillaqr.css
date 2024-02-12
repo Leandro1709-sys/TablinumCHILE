@@ -1,0 +1,18 @@
+.div-qr{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.qr{
+    padding: 20px;
+  
+   
+}
+.qrs{
+    padding-left: 20px;
+    display:flex
+}
+.qrs a {
+    text-decoration: none
+}

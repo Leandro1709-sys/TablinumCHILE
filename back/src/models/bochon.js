@@ -1,0 +1,252 @@
+const { DataTypes } = require("sequelize");
+const Sequelize = require("sequelize");
+module.exports = (sequelize) => {
+  sequelize.define("bochon", {
+    bochonnumero: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      primaryKey: true,
+    },
+    especimennumero: {
+      type: Sequelize.JSON,
+      defaultValue: [],
+    },
+    sigla: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      defaultValue: "PVBSJ",
+    },
+    genero: {
+      type: DataTypes.STRING,
+      defaultValue: "Sin datos",
+    },
+    especie: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      defaultValue: "Sin datos",
+    },
+    subespecie: {
+      type: DataTypes.STRING,
+      defaultValue: "Sin datos",
+    },
+    posicionfilo: {
+      type: Sequelize.JSON,
+      defaultValue: [],
+    },
+
+    periodo: {
+      type: DataTypes.STRING,
+      defaultValue: "Sin datos",
+    },
+    epoca: {
+      type: DataTypes.STRING,
+      defaultValue: "Sin datos",
+    },
+    piso: {
+      type: DataTypes.STRING,
+      defaultValue: "Sin datos",
+    },
+
+    cuenca: {
+      type: DataTypes.STRING,
+      defaultValue: "Sin datos",
+    },
+    formacion: {
+      type: DataTypes.STRING,
+      defaultValue: "Sin datos",
+    },
+    miembro: {
+      type: DataTypes.STRING,
+      defaultValue: "Sin datos",
+    },
+
+    localidad: {
+      type: DataTypes.STRING,
+      defaultValue: "Sin datos",
+    },
+    coordlat: {
+      type: DataTypes.FLOAT,
+      defaultValue: 0,
+    },
+    coordlong: {
+      type: DataTypes.FLOAT,
+      defaultValue: 0,
+    },
+
+    campana: {
+      type: DataTypes.STRING,
+      defaultValue: "Sin datos",
+    },
+
+    nrocampo: {
+      type: DataTypes.STRING,
+      defaultValue: "Sin datos",
+    },
+    descubridor: {
+      type: DataTypes.STRING,
+      defaultValue: "Sin datos",
+    },
+    fechadescubrimiento: {
+      type: DataTypes.DATEONLY,
+      defaultValue: "1111-11-11",
+    },
+
+    preparador: {
+      type: DataTypes.STRING,
+      defaultValue: "Sin datos",
+    },
+    preparacionfecha: {
+      type: DataTypes.DATEONLY,
+      defaultValue: "1111-11-11",
+    },
+    armario1: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      defaultValue: 0,
+    },
+    estante1desde: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      defaultValue: 0,
+    },
+    estante1hasta: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      defaultValue: 0,
+    },
+    armario2: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      defaultValue: 0,
+    },
+    estante2desde: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      defaultValue: 0,
+    },
+    estante2hasta: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      defaultValue: 0,
+    },
+    partesesqueletales: {
+      type: DataTypes.JSON,
+      defaultValue: [],
+    },
+    cantidadfrag: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      defaultValue: 0,
+    },
+    comentario: {
+      type: DataTypes.TEXT,
+      defaultValue: "Sin datos",
+    },
+    imagen: {
+      type: DataTypes.JSON,
+      allowNull: true,
+    },
+    pdf: {
+      type: DataTypes.JSON,
+      allowNull: true,
+      defaultValue: [],
+    },
+
+    url: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      defaultValue: "sin URL",
+    },
+    publico: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false,
+    },
+    holotipo: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false,
+    },
+    modificado: {
+      type: DataTypes.JSON,
+      defaultValue: false,
+    },
+    prestado: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false,
+    },
+    extra1: {
+      type: DataTypes.TEXT,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra2: {
+      type: DataTypes.TEXT,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra3: {
+      type: DataTypes.TEXT,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra4: {
+      type: DataTypes.TEXT,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra5: {
+      type: DataTypes.TEXT,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra6: {
+      type: DataTypes.TEXT,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra7: {
+      type: DataTypes.TEXT,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra8: {
+      type: DataTypes.TEXT,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra9: {
+      type: DataTypes.TEXT,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra10: {
+      type: DataTypes.JSON,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra11: {
+      type: DataTypes.JSON,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra12: {
+      type: DataTypes.JSON,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra13: {
+      type: DataTypes.JSON,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra14: {
+      type: DataTypes.JSON,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+    extra15: {
+      type: DataTypes.JSON,
+      defaultValue: false,
+      defaultValue: "Sin Datos",
+    },
+  });
+};

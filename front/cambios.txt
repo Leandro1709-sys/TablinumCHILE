@@ -1,0 +1,6 @@
+- vincular al bochon mas de un especimen
+- imagenes (guardar archivo en caroeta)
+- comentario (cambiar el tipo de dato de string a text)
+- Cambiar 'fragmentos' a 'Piezas'
+- en detalle un boton 'imprimir ficha' y generar un ped con la ficha del especimen
+- automatizar backup de base de datos

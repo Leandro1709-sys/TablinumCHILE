@@ -1,0 +1,111 @@
+
+.padre{
+  width: 100%;
+  position: fixed;
+}
+.icon-lng{
+  background-color: transparent;
+  border-radius: 50px;
+  border: none;
+  
+
+}
+.nav-Bar1{
+  width: 100%;
+  background-color:#6b705c;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-between;
+}
+ .img-perfil{
+  border-radius: 200px;
+}
+.botones{
+  display: flex;
+  background-color:#6b705c;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.botonCito{
+  justify-content: center;
+  cursor: pointer;
+  display: flex;
+  width:15%;
+  height: 10%;
+  margin-top: 30px;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+  color: white;
+  transition: 0.06s;
+  font-size: 15px;  
+  font-weight: 100;
+ 
+}
+ .active2,.botonCito:hover{
+
+  background-color:#a5a58d;
+  height: 80%;
+  margin-top: 30px;
+font-size: 17px;
+  color: black;
+  font-weight: bold;
+  width:15%;
+  height: 80%;
+  
+}
+.imag{
+  cursor: pointer;
+}
+.logo-home{
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.pboton{
+  margin-top: 5px;
+}
+
+.perfil{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 6px;
+}
+.boton-catalogo{
+  padding: 1%;
+ 
+}
+.boton-icono{
+  color :white;
+}
+.boton-icono:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.langbot{
+  display: flex;
+ 
+  justify-content: center;
+}
+.langTXT{
+  display: flex;
+margin-top: 15px;
+font-size: 15px;
+font-weight: 500;
+color: white;
+justify-content: center;
+width: 100%;
+}
+
+.lang{
+  
+  display: flex;
+  flex-direction: column;
+  width: 13%;
+}

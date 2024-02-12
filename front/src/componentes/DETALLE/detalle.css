@@ -1,0 +1,419 @@
+.contenedor1{
+background-color: white;
+
+}
+label{
+    padding: 10px
+}
+.generoEspecie{
+    position: absolute;
+    top: 12%;
+    border: solid 1px;
+    height: 20%;
+    left: 2%;
+    width: 21%;
+    padding: 17px;
+}
+.edad{
+    position: absolute;
+    top: 35%;
+    border: solid 1px;
+    height: 20%;
+    left: 2%;
+    width: 21%;
+    padding: 17px;
+}
+.geologia {
+    position: absolute;
+    top: 59%;
+    border: solid 1px;
+    height: 23%;
+    left: 2%;
+    width: 22%;
+    padding: 17px;
+}
+.ubicacion{
+    position: absolute;
+    top: 84%;
+    border: solid 1px;
+    height: 12%;
+    left: 2%;
+    width: 57%;
+    padding: 17px;
+}
+.posicion {
+    position: absolute;
+    top: 12%;
+    left: 26%;
+    border: solid 1px;
+    height: auto;
+    width: 33%;
+    text-align: left;
+    padding-left: 33px;
+}
+.campana{
+    position: absolute;
+    width: 14%;
+    left: 26%;
+    border: solid 1px;
+    top: 30%;
+    height: 36%;
+}
+.preparador{
+    position: absolute;
+    width: 14%;
+    left: 45%;
+    border: solid 1px;
+    top: 30%;
+    height: 36%;
+}
+.esqueleto{
+    position: absolute;
+    top: 12%;
+    left: 62%;
+    border: solid 1px;
+    height: auto;
+    width: 33%;
+    text-align: left;
+    padding-left: 33px;
+}
+.armario {
+    position: absolute;
+    width: 20%;
+    left: 62%;
+    border: solid 1px;
+    top: 81%;
+    height: 16%;
+    font-size: 90%;
+    display: grid;
+}
+.foto{
+margin-top: 5px;
+margin-bottom: 5px;
+ max-height: 140px;
+ max-width: 90%;
+}
+.comentario{
+    position: absolute;
+    width: 33%;
+    left: 26%;
+    border: solid 1px;
+    top: 69%;
+    height: 13%;
+}
+.textarea{
+    width: 80%;
+    height: 65%;
+}
+.imagen{
+    
+    position: absolute;
+    width: 33%;
+    left: 62%;
+    border: solid 1px;
+    top: 42%;
+    height: 36%;
+}
+.img1{
+    max-width: 100%;
+    max-height: 100%;
+    position: static;
+}
+.modificar2{
+     
+       width: 8%;
+ 
+     
+
+}
+.lala{
+    max-width: 250px;
+    max-height:250px;
+}
+
+.armario1{
+    width: 5%;
+}
+.href-detalle{
+  text-decoration: none;
+  color: black;
+}
+
+  .dd{
+    margin-top: 5px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+  }
+  .datos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 7px;
+  }
+  .datos66{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 7px;
+    color: white;
+  }
+  .campos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+  }
+  .campotitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 5px;
+    font-size:16px;
+  }
+  
+
+
+
+
+
+  .col1-detalle{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+
+  .col1{
+    display: flex;
+    flex-direction: column;
+    
+    width: 25%;
+    justify-content: space-between;
+    height: 100%;
+   
+  }
+  .info3-detalle{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 35%;
+    margin-left: 5px;
+    
+  }
+
+  .mostradorDetalle-cord{
+    display: flex;
+    flex-wrap: wrap;
+    height: 19%;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 76%;
+    background-color: #b7b7a4;
+    margin-left: 10px;
+    border:#333;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  
+  .qr-div{
+    width: 120px;
+    height:30px;
+    background-color: #6b705c;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color :black;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .qr-div2{
+    width: 120px;
+    height:30px;
+    margin-right: 10px;
+    background-color: #a5a58d;
+    border-radius: 5px;
+    color :black;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .qr-div:hover{
+    background-color: #a5a58d;
+    color: rgb(255, 255, 255);
+  }
+  .qr-div2:hover{
+    background-color: #6b705c;
+    color: rgb(255, 255, 255);
+  }
+  .cabeza5-detalle1{
+      
+        margin-left: 28px;
+        background-color: #6b705c;
+        width: 85%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        height: 36px;
+        margin-top: 8px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+    
+        border:#333;
+        border-style: solid;
+        border-width: 1px;
+  }
+ /*  .estante-detalle{
+    margin-left: 28px;
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    width: 85%;
+    background-color: #95c4b6;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  } */
+  .col4-detalle{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content:space-around;
+    height: 100%;
+  }
+  .info3-publicacion{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 30%;
+    margin-top: 5px;
+    align-items: center;
+    
+   
+  }
+  .info3-imagen{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 40%;
+    /* height: 40%; */
+    margin-top: 5px;
+    align-items: center;
+   
+  }
+  .info3-imagen-detalle{
+    width: 73%;
+    height: 40%;
+    margin-left: 10%;
+    border: solid 1px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+
+  }
+  .info3-imagen-detalle2{
+    width: 73%;
+    height: 30%;
+    margin-left: 10%;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color:#b7b7a4;
+  }
+  .sin-imagen{
+    margin-top: 18%;
+  }
+ .div-imagen{
+  margin-top: 5px;
+ }
+  .publicaiones-detalle{
+    margin-left: 28px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85%;
+margin-bottom: 5px;
+    background-color: #b7b7a4;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+    
+    border:#333;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .mostrador3D-imagen{
+    width: 85%;
+    height: 80%;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #b7b7a4;
+  }
+  .info3-detalle1{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 15%;
+    margin-top: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    
+  }
+  .carrusel-item-css{
+    
+      height: 15vh;
+      min-height: 135px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    
+    
+  }
+  .estante-detalle{
+    margin-left: 28px;
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    width: 85%;
+    background-color: #b7b7a4;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+    border:#333;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .en-prestamo{
+    width: 130px;
+    height: 30px;
+    background-color: #6b705c;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .en-prestamo:hover{
+   
+    color: white;
+  }
+  .mostradorD-detalle{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    min-height: 140px;
+    margin-left:2%;
+    border-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 85%;
+    height: 90%;
+    background-color: #b7b7a4;
+  }
+  .datos-detalle{
+    color :white;
+  }

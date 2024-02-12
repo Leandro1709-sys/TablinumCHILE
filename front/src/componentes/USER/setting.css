@@ -1,0 +1,160 @@
+#main-container21{
+    display: flex;
+	width: 50%;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.contenido1{
+    display: flex;
+    flex-direction: column;
+    text-align: none;
+    height: auto;
+    border: solid 1px;
+    width: 121%;
+    border-color: #369681;
+}
+@media only screen and (min-width: 1600px) {
+    #main-container21{ width: 45%; }
+   }
+   @media only screen and (min-width: 1900px) {
+    #main-container21{ width: 33%; }
+   }
+   @media only screen and (max-width: 1200px) {
+    #main-container21{ width: 55%; }
+   }
+
+   
+   .cambia-nom{
+    margin-top: 50px;
+    display: flex;
+    width: 45%;
+    height: 5%;
+    justify-content: center;
+    vertical-align: middle;
+    
+   }
+ 
+   .hhh{
+    margin-top: 5px;
+    margin-right: 5px;
+   }
+   .todi{ 
+    width: 45%;
+   }
+   .sdsd55{
+    width: 30%;
+   }
+   .nuevo-pin{
+    padding: 20px;
+   }
+   .backup{
+    color: black;
+    font-size:25px;
+    padding-right: 20px;
+   }
+   .backup:hover{
+    color:white;
+    
+   }
+   .backup1:hover{
+    color:white;
+    
+   }
+   .backup1{
+    color: black;
+    font-size:25px;
+    padding-left: 20px;
+   }
+   .pin-nuevo-s{
+    border: solid 1px;
+    border-radius: 5px;
+   }
+   .nuevoPin{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+   }
+   .tablita{
+    display: flex;
+    width: 50%;
+    background-color: #369681;
+   }
+   .control-u{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+   margin-bottom: 15px;
+   margin-left: 3px;
+    width: 100%;
+   }
+   .ttti{
+ display: flex;
+    color:black;
+  justify-content: center;
+    align-items: baseline;
+   
+    
+   }
+   .ni{
+    vertical-align: bottom;
+
+    margin-top: 0px;
+   }
+   .butoto{
+    margin-left:5px;
+    
+   }
+   .niveles{
+    display: flex;
+    width: 100%;
+    
+   }
+   .t1{
+    color: aliceblue;
+    border-bottom-left-radius: 5px;
+   
+background-color:#464e2d ;
+width: 25%;
+   }
+   .t2{
+    color: aliceblue;
+    background-color:#59633b ;
+    width: 25%;
+   }
+   .t3{
+    color: aliceblue;
+   
+    background-color:#464e2d;
+    width: 25%;
+   }
+   .t4{
+    color: aliceblue;
+   
+    background-color:#59633b;
+    width: 25%;
+    border-bottom-right-radius: 5px;
+   }
+
+   .inputing{
+    width: 250px;
+   }
+   .head-set{
+    background-color: #6b705c;
+    color: aliceblue;
+   
+
+   }
+
+   .contenido342{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    align-items: center;
+  
+  
+  
+  }

@@ -1,0 +1,39 @@
+.container {
+    background-color: orange;
+    width: 50%;
+    position: absolute;
+    height: 80%;
+    left: 0;
+    text-align: center;
+}
+.creador{
+    background-color: red;
+    width: 50%;
+    position: absolute;
+    height: 80%;
+    right: 0;
+    text-align: center;
+   
+    
+}
+.app {
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.nombre{
+    width: 30%;
+    height: 5%;
+    margin-left:10px;
+}
+label{
+    font-size: 150%
+
+}
+.crear {
+    width: 8%;
+    height: 8%;
+    text-align: auto;
+    margin: 2%
+}

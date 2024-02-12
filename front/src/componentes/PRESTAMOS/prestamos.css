@@ -1,0 +1,259 @@
+.formulario-prestamo{
+    display: flex;
+    height: 99%;
+}
+.form-prest{
+    background-color: #b7b7a4;
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    border-width: 1px;
+    
+}
+.sdsd{
+    width: 70%;
+}
+.sdsd2{
+    width: 70%;
+}
+.numeros-de-especimen{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.caca-prestamos{
+    border-radius: 5px;
+    margin: 6px;
+    background-color: #6b705c;
+    min-width: 30px;
+    height: 25px;
+    font-size: 14px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+   
+    vertical-align: middle;
+}
+.text-pres{
+    width: 80%;
+    height: 13%;
+    border:solid 1px;
+}
+.boton-prest{
+    margin-top: 9px
+}
+.crear-prest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:35%;
+    height: 90%;
+    margin-top: 20px;
+  
+
+}
+.lista-prest{
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    margin-top: 2%;
+    margin-top: 20px;
+
+    
+    
+}
+.formulario-prestamo{
+    width: 100%;
+    margin-left: 20%;
+}
+.conte-div{
+    
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+.conte-div2{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+#main-container2{
+    display: flex;
+	width: 82%;
+    align-items: center;
+    align-content: center;
+    margin-top:8px;
+}
+
+.cont{
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+  
+    
+}
+.gen-selected{
+    width: 80%;
+    height:20px;
+    
+}
+.apre{
+    display: flex;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 100%;
+   font-weight: 500;
+    font-size: 20px;
+    margin-top: 5px;
+    justify-items: center;
+    justify-content: center;
+}
+.buscar-prestamo{
+    background-color: #b7b7a4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   
+}
+
+.buscar-prestamo-input{
+    margin-top: 8px;
+    text-align: center;
+    width: 30%;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    
+   
+}
+.danger{
+    background-color: rgba(255, 0, 0, 0.324) !important
+}
+.danger1{
+    background-color:#617b3c6b !important;
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+    justify-content: space-around;
+}
+.pase{
+    background-color:rgb(233, 233, 233) 
+}
+.pase1{
+    background-color:rgb(233, 233, 233) ;
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+    justify-content: space-around;
+}
+.contenido-prest{
+    background-color: #369681;
+    display: flex;
+    flex-direction: column;
+    text-align: none;
+    width: 100%;
+    border-color: #369681;
+}
+
+
+   .tabli-headP{
+    display: flex;
+    background-color: #6b705c;
+	border-bottom: solid 5px #6b705c;
+	color: white;
+    width: 100%;
+    height: 65px;
+   }
+   
+.trHead{
+    width: 100%;
+}
+  
+   .papa1{
+display: flex;
+flex-direction: column;
+    width: 100%;
+   
+
+
+   }
+   .papa{
+    display: flex;
+ 
+    width: 100%;
+
+
+   }
+   .tr2{
+   
+    width: 100%;
+   }
+   .tr2Rojo{
+   background-color: rgba(255, 0, 0, 0.486);
+    width: 100%;
+   }
+   .trHijo{
+    display: flex;
+    width: 95%;
+  
+
+   }
+   .printer{
+    cursor:pointer;
+    display: flex;
+    width: 5%;
+    justify-content: center;
+    margin-top: 12px;
+
+  }
+  
+
+   .td-eliminar{
+   display: flex;
+
+width: 30%;
+
+   }
+
+   .tabli-headPELIMINAR{
+    background-color: #6b705c;
+	border-bottom: solid 5px #6b705c;
+	color: white;
+    width: 100%;
+    height: 65px;
+   }
+
+   .cab-pres{
+    background-color: #6b705c;
+    width: 80%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: aliceblue;
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    border-width: 1px;
+   }
+   
+   tr:nth-child(even){
+	background-color: #ddd;
+}
